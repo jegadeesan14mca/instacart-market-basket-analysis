@@ -11,7 +11,7 @@ While in the root folder of the project, type in a terminal `python3 src/cluster
 
 After the complete execution of the script, a textual interface will ask which option you want to execute. The results are showed using charts.
 
-** Important **: to execute this script, it's advised that your computer has at least 8GB of RAM.
+**Important**: to execute this script, it's advised that your computer has at least 8GB of RAM.
 
 ## Association rules with Apriori
 Install python 3 and the following dependences: *pandas*, *numpy* and *mlxtend*.
@@ -24,7 +24,7 @@ As a result, the script will create a file named *newTrainSet.csv* in the *data/
 ### How to run the apriori algorithm
 While in the root folder of the project, type in a terminal `python3 src/apriori.py`.
 
-The output of the script will be placed under the *out/* folder. It is a file called "confidence.csv" where you'll find the association rules along with the support and confidence levels.
+The output of the script will be placed under the *out/* folder. It is a file called *confidence.csv* where you'll find the association rules along with the support and confidence levels.
 
 ## Association rules with FP-Growth
 Install python 3 and the following dependences: *pandas* and *pyfim*.
